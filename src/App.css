@@ -1,0 +1,378 @@
+/*Global styles */
+
+* {
+  margin: 0;
+  padding: 0;
+  text-decoration: none;
+ 
+}
+
+
+/*Import fonts: */
+
+
+/* Anton */
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+/* Montserrat*/
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* Rules Montserrat
+font-family: 'Montserrat', sans-serif; */
+
+
+/*Seccion 1 */
+
+
+/*columna 1*/
+
+.seccion-1 {
+  background-color: #ffffff;
+}
+
+.logo {
+  text-align: center;
+  margin-top: 40px;
+}
+
+.copys-container {
+  align-items: center;
+  text-align: left;
+  margin-top: 250px;
+  margin-left: 100px;
+  margin-right: 3em;
+  padding-right: 2em;
+}
+
+.texto-inicio {
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  font-size: 36px;
+  letter-spacing: 1px;
+  line-height: 1;
+  
+}
+
+h1 {
+  font-family: 'Anton', sans-serif;
+  font-weight: bold;
+  font-size: 64px;
+  letter-spacing: 2.5px;
+  line-height: 1;
+}
+
+h2 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: medium;
+  font-size: 20px;
+  line-height: 2;
+  letter-spacing: -1px;
+  opacity: .6;
+}
+
+/*columna 2*/
+.seccion {
+  margin-top: 250px;
+  width: 320px;
+}
+
+.contenedor{
+  align-items: right;
+}
+
+.seccion-form {
+  height: 800px;
+  background-image: url("img/vector.svg");
+  background-repeat: no-repeat;
+  background-size: 78%;
+  background-position: center;
+}
+
+
+/*Styles seccion 2 */
+
+.col1{
+  background-image: url("img/teamwork.png");
+  background-repeat: no-repeat;
+  background-size: 100%;
+  background-position: center;
+  width:auto;
+  height:420px;
+
+}
+
+/*Media query de imagen de sección 2 */
+
+
+@media only screen and (max-width: 880px) {
+ .col1{
+    background-size: 150%;
+   
+
+ }
+ 
+  
+}
+
+@media screen and (max-width: 650px) {
+  .col1{
+      background-image: url("img/teamwork_responsive.png");
+      background-size: 130%;
+     
+
+   }
+}
+
+@media screen and (max-width: 320px) {
+  .col1{
+      background-image: url("img/teamwork_responsive.png");
+      background-size: 160%;
+     
+
+   }
+}
+
+@media screen and (max-width: 280px) {
+  .col1{
+      background-image: url("img/teamwork_responsive.png");
+      background-size: 160%;
+     
+
+   }
+}
+
+
+
+
+.col2{
+
+  padding: 10px;
+  margin: 0px;
+ 
+}
+
+.d1{
+ 
+  color:#ffff;
+  background-color: #614456;    
+  padding: 20px;
+  height: 30%;
+  font-size: 18px;
+ 
+}
+
+.d2{
+  background-color:#E9E9E9;
+  color: #303030;
+  padding: 20px;
+  height: 70%;
+}
+
+.btn1{
+  background-color: #E20515;
+  color: #ffff;
+  border: none;
+  text-align: center;
+  text-decoration: none;
+  padding: 10px 24px ;
+  margin: 4px 2px;
+  cursor: pointer;
+  
+
+}
+.btn1:hover{
+  text-decoration: none;
+  color: #ffff;
+}
+
+
+
+.fix_padding{
+      padding: 0;
+      padding-left: 0!important;
+      padding-right: 0!important;
+  }
+
+
+
+/*Styles seccion 3 */
+
+.sec3 {
+  background-color: #F5F5F5;
+}
+
+.col1s3 {
+  font-family: 'Montserrat', sans-serif;
+  text-align: center;
+}
+
+.h3s3 {
+  font-size: 2em;
+  color: #000000;
+  font-family: 'Montserrat', sans-serif;
+  padding: 1em;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  line-height: 1.5;
+  font-weight: 400;
+}
+
+.ps3 {
+  margin-top: -1em;
+  margin-bottom: 3em;
+  margin-left: .5em;
+  padding-left: 1em;
+  padding-right: 1em;
+  font-size: 15pt;
+  font-family: 'Montserrat', sans-serif;
+  color: #000000;
+  opacity: .6;
+  letter-spacing: -1px;
+  line-height: 1.5
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+* {
+    text-decoration: none;
+}
+
+html,
+body {
+   /* height: 100%; */
+    /*background-color: rgb(42, 42, 42);*/
+}
+
+.social-icon {
+    height: 46px;
+    width: 46px;
+    justify-content: center;
+    align-items: center;
+    margin: 5.em;
+    color: black;
+    border-radius: 50%;
+    border: 1px solid #fff;
+    text-decoration: none;
+    font-size: 15pt;
+    transition: 0.3s;
+    
+}
+
+.fb {
+    color: #626262;
+}
+
+.fb:hover {
+    color: #034AA6;
+}
+
+.tw {
+    color: #626262;
+}
+
+.tw:hover {
+    color: #27B9F2;
+}
+
+.gm {
+    color: #626262;
+}
+
+.gm:hover {
+    color: #BF4539;
+}
+
+.link {
+    text-decoration: none;
+    color: #2c2c2c;
+    text-align: left;
+}
+
+.link:hover {
+    text-decoration: none;
+    color: #db1320;
+}
+
+/*login*/
+
+body.my-login-page {
+    background-color: #f7f9fb;
+    font-size: 14px;
+}
+h4 {
+    color: rgb(0, 0, 0);
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    text-align: center;
+    font-size: 26px;
+}
+.labelf {
+    font-family: 'Montserrat', sans-serif;
+    opacity: .7;
+    color: 999999;
+    text-align: left;
+}
+.my-login-page .brand {
+    width: 90px;
+    height: 90px;
+    overflow: hidden;
+    border-radius: 50%;
+    margin: 40px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+    position: relative;
+    z-index: 1;
+}
+.my-login-page .brand img {
+    width: 100%;
+}
+.my-login-page .card-wrapper {
+    width: 400px;
+}
+.my-login-page .card {
+    border-color: transparent;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, .05);
+}
+.my-login-page .card.fat {
+    padding: 10px;
+}
+.my-login-page .card .card-title {
+    margin-bottom: 30px;
+}
+.my-login-page .form-control {
+    border-width: 2.3px;
+}
+.my-login-page .form-group label {
+    width: 100%;
+}
+.my-login-page .btn.btn-block {
+    padding: 12px 10px;
+}
+.my-login-page .footer {
+    margin: 40px 0;
+    color: #888;
+    text-align: center;
+}
+@media screen and (max-width: 425px) {
+    .my-login-page .card-wrapper {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
+@media screen and (max-width: 320px) {
+    .my-login-page .card.fat {
+        padding: 0;
+    }
+    
+    .my-login-page .card.fat .card-body {
+        padding: 15px;
+    }
+}
+.btn1 {
+    background-color: #E20515;
+    opacity: .8;
+    border: none;
+}
+.btn1:hover {
+    background-color: rgb(10, 10, 10);
+}
